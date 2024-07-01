@@ -1,0 +1,22 @@
+# Azure SDKs
+azure-functions
+azure-storage-blob
+azure-identity
+azure-mgmt-resource
+azure-mgmt-sql
+
+# HTTP requests
+requests
+
+# Data manipulation
+pandas
+
+# Database interactions
+sqlalchemy
+pyodbc
+
+# Logging
+loguru
+
+# Environment variables
+python-dotenv
