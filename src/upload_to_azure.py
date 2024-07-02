@@ -9,5 +9,5 @@ def upload_file(file_path, container_name, blob_name):
     blob_client = container_client._get_blob_service_client(blob_name)
     with open(file_path, "rb") as data:
         blob_client.upload_blob(data, overwrite=True)
-    print(f"{file_path} uploaded to {container_name}/{blob_name} successfully.")
+    print(f"{file_path}a uploaded to {container_name}/{blob_name} successfully.")
 
